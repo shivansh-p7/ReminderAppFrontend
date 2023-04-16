@@ -1,0 +1,47 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    font-size: 1.5rem;
+  }
+  
+  /* Styles for the navigation links */
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .link{
+    color: white;
+}
+  .nav-item {
+    margin-right: 30px;
+    size: 2px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    padding: 2px;
+    font-size: 20px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .active{
+    color:  rgb(143, 193, 223);
+  }

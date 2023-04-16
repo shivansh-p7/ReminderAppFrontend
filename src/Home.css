@@ -1,0 +1,159 @@
+.container_home {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(79deg, #4b5f64, #519bcf 48%, #051515);
+    justify-content: center;
+    overflow-x: hidden;
+    font-family:  sans-serif;
+}
+
+.homepage {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homepage_side_boxes{
+    height: 14rem;
+background-color: white;
+width: 20rem;
+display: flex;
+align-items: center;
+border-radius: 10px;
+padding: 7px;
+color: rgb(47, 162, 200);
+flex-direction: column;
+}
+.homepage_side_boxes_right{
+height: 14rem;
+background-color: white;
+width: 20rem;
+display: flex;
+align-items: center;
+border-radius: 10px;
+padding: 7px;
+color: rgb(47, 162, 200);
+flex-direction: column;
+}
+
+.homepage_side_boxes > p{
+    font-size: 5rem; 
+    color: black;
+}
+
+.homepage_side_boxes > h1{
+    margin: 2rem 0rem;
+}
+
+.homepage_input {
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    min-width: 30%;
+    min-height: fit-content;
+    border-radius: 8px;
+    background: white;
+    position: static;
+    color: black;
+}
+
+.homepage_input > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    width: 100%;
+    text-align:center;
+    padding: 0.5rem 0;
+    margin: 1rem ;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.homepage_input > input{
+    border: 2px black solid;
+    border-radius: 3px;
+    outline: none;
+    color: black;
+    margin: 0.8rem 0;
+    padding: 0.4rem 0;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.hompage_date{
+    width: 100%;
+}
+
+.rdt {
+    position: static !important;
+  }
+
+.homepage_body {
+    width: 100%;
+    margin-left: 8rem;
+}
+
+.reminder_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: inline-block;
+    background: white;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 1rem;
+   max-width:350px;
+   min-height:  150px;
+    box-shadow: 0 2px 4px rgba(40, 129, 189, 0.1), 0 8px 16px rgba(42, 130, 189, 0.1);
+    word-wrap: break-word;
+}
+
+.reminder_card > h2 {
+    margin-bottom: 0.5rem;
+    color: #1877f2;
+    min-height: 7rem;
+ 
+}
+
+.reminder_card > p {
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.reminder_card > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    width: inherit;
+    text-align:center;
+    padding: 0.5rem 0;
+    margin: 0.5rem ;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-control{
+width: 14rem;
+height: 1.5rem;
+text-align: center;
+border: 2px black solid;
+}
+

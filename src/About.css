@@ -1,0 +1,30 @@
+.container_about{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(79deg, #4b5f64, #519bcf 48%, #051515);
+    justify-content: center;
+   
+    font-family:  sans-serif;
+}
+
+.about_box{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: aliceblue;
+   height: 20rem;
+   width: 40rem;
+  font-size: 30px;
+  text-align:center;
+   margin: 2rem;
+   border-radius: 10px ;
+   color: #519bcf;
+}
+
+.w-icon{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
