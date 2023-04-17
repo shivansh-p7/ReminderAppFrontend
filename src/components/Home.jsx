@@ -20,14 +20,14 @@ function Home() {
   let token = localStorage.getItem('token')
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/reminder?userId=${userId}`, { headers: { 'Authorization': `Bearer ${token}` } }).then(res => setReminderList(res.data.data))
+    axios.get(`https://marvelous-peat-peridot.glitch.me/reminder?userId=${userId}`, { headers: { 'Authorization': `Bearer ${token}` } }).then(res => setReminderList(res.data.data))
 
   }, [userId, token])
 
 
   const addReminder = () => {
     if (token) {
-      axios.post("http://localhost:5000/reminder", { message, remindAt, userId, reminderFreq }).then(res => {
+      axios.post("https://marvelous-peat-peridot.glitch.me/reminder", { message, remindAt, userId, reminderFreq }).then(res => {
 
         const newReminderList = [...reminderList, res.data.data];
         setReminderList(newReminderList)
@@ -57,7 +57,7 @@ function Home() {
 
     if (token) {
 
-      axios.delete("http://localhost:5000/reminder", config).then((res) => {
+      axios.delete("https://marvelous-peat-peridot.glitch.me/reminder", config).then((res) => {
 
           const newReminderList = reminderList.filter( (reminder) => reminder._id !== reminderId);
 

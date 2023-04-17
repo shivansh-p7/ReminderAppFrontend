@@ -36,7 +36,7 @@ flex-direction: column;
 }
 .homepage_side_boxes_right{
 height: 14rem;
-background-color: white;
+background-color:linear-gradient(79deg, #4b5f64, #519bcf 48%, #051515);
 width: 20rem;
 display: flex;
 align-items: center;

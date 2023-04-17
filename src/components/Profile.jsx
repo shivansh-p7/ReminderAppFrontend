@@ -22,7 +22,7 @@ function Profile() {
       navigate("/logIn");
 
     } else {
-      axios.get(`http://localhost:5000/user?userId=${userId}`,{ headers: { 'Authorization': `Bearer ${token}`} }).then((res) => { setUser(res.data.data); });
+      axios.get(`https://marvelous-peat-peridot.glitch.me/user?userId=${userId}`,{ headers: { 'Authorization': `Bearer ${token}`} }).then((res) => { setUser(res.data.data); });
 
     }
 
@@ -41,7 +41,7 @@ function Profile() {
 
       {user ? <div className="profile-details">
         <img
-          src="https://via.placeholder.com/150"
+          src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg"
           alt="Profile"
           className="profile-image"
         />

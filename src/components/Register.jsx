@@ -17,7 +17,7 @@ export const Register=(props)=>{
       e.preventDefault();
           try {
           
-          let response= await axios.post("http://localhost:5000/register",{email,password,fname,lname,mobile});
+          let response= await axios.post("https://marvelous-peat-peridot.glitch.me/register",{email,password,fname,lname,mobile});
           
           setemail("");
           setPassword("")

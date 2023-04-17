@@ -13,7 +13,7 @@ export const LogIn=(props)=>{
      e.preventDefault();
          try {
          
-         let response= await axios.post("http://localhost:5000/login",{email,password});
+         let response= await axios.post("https://marvelous-peat-peridot.glitch.me/login",{email,password});
 
 
          localStorage.setItem('token',  response.data.data.token);
