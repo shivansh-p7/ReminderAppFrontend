@@ -27,6 +27,7 @@ function Home() {
 
   const addReminder = () => {
     if (token) {
+      remindAt=moment.utc(remindAt).format();
       axios.post("https://marvelous-peat-peridot.glitch.me/reminder", { message, remindAt, userId, reminderFreq }).then(res => {
 
         const newReminderList = [...reminderList, res.data.data];
