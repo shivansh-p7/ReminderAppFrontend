@@ -10,7 +10,7 @@ import moment from 'moment';
 function Home() {
 
   const [message, setReminderMsg] = useState("")
-  const [remindAt, setRemindAt] = useState("")
+  let [remindAt, setRemindAt] = useState("")
   const [reminderList, setReminderList] = useState([])
   const [reminderFreq, setReminderFreq] = useState("EveryMonth");
 
